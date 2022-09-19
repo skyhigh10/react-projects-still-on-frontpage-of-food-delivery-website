@@ -1,0 +1,23 @@
+.hero-root{
+    height: 50vh;
+    margin-top: 30px;
+
+}
+.hero-body{
+    display: flex;
+    padding-top: 50px;
+    gap: 50px;
+}
+
+.card{
+    width: 15rem;
+    height:10rem;
+}
+
+.card h2{
+    font-size: 20px;
+    padding: 50px 20px;
+    font-weight: bold;
+}
+
+

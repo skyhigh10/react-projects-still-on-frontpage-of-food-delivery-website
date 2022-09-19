@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+font-family: sans-serif;
+
+}
+
+.row{}
+
+/* navbar section styling */
+
+/* media query for mobile on menu */
+
+
+/* hero section styling */
+.row h1 {
+  padding-top: 40px;
+}
+
+.row h2 {
+  padding-top: 40px;
+}
+
+/* FORM AREA STYLING */
+input {
+  width: 60%;
+  height: 60px;
+  outline: none;
+  border-top-color: #42b883;
+}
+
+form button {
+  width: 30%;
+  height: 60px;
+  border: none;
+  box-shadow: 0 10px 10px #42b883;
+}
+
+/* cities area styling */
+.citi-area {
+  padding-top: 30px;
+}
+
+.city-title p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.city-lists {
+  display: flex;
+}
+
+.city-lists a {
+  text-decoration: none;
+  padding-left: 6px;
+  font-weight: bold;
+  text-shadow: 0 2px;
+  color: #385170;
+}
+/* hero-RIGHT side styling */
+.hero-right {
+  padding-left: 10%;
+  position: relative;
+}
+
+.hero-right img {
+  z-index: 10;
+  position: relative;
+}
+.hero-color-box {
+  position: absolute;
+  height: 29vh;
+  width: 70%;
+  background-color: #42b883;
+  bottom: 0;
+  right: 0;
+  top: 20vh;
+  z-index: 2;
+}
+
+/* service section and cards styling */
+.icon-box {
+  align-items: center;
+  text-align: center;
+}
+.icon-box img {
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+/* app download and stores section */
+.appside-left {
+  padding-top: 100px;
+}
+
+.appside-left p:nth-child(1) {
+  font-size: 30px;
+  font-weight: bolder;
+  text-shadow: 1 0px;
+}
+
+.appside-left p:nth-child(2) {
+  font-size: 20px;
+  font-style: normal;
+  font-family: "seogoe UI";
+}
+.appside-left-image {
+  display: flex;
+}
+.appside-left-image img {
+  width: 180px;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+/* appside hero right  */
+.hero-right {
+  display: flex;
+  padding-top: 20px;
+}
+
+/* foot section */
+.footer{
+  background-color: #42b883;
+
+}
+
+.foot-text-title{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  align-items: center;
+
+}
+
+.foot-text-title p{
+  font-weight: bold;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  align-items: center;
+  color: white;
+}
+
+.foot-text-title li{
+  list-style: none;
+  padding-top: 5px;
+  align-items: center;
+  text-align: center;
+}
+
+.foot-text-title a{
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.foot{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+
+.foot-logo{
+  padding-left: 10%;
+}
+
+.foot-social-icons{
+  padding-right: 10%;
+  display: flex;
+}
+.copy-right-text p{
+  font-weight: bold;
+  padding-top: 5px;
+  color: white;
+}
+.foot-social-icons img{
+  width: 30px;
+  padding-left: 2px;
+  padding-right: 0px;
+  
+}

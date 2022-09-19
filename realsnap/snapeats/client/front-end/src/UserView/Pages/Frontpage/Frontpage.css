@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+section {
+  max-height: 100vh;
+  padding-top: 30px;
+}
+
+.hero-left {
+  margin-top: 20px;
+}
+
+.hero-left h1 {
+    padding-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 0 1px;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.hero-left h2 {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 0 1px;
+}
+
+/* form styling */
+input {
+  width: 70%;
+  height: 60px;
+  outline: none;
+}
+
+input:focus-within {
+  border: 2px solid green;
+  transition: 1s ease-in-out;
+}
+
+form button {
+  width: 30%;
+  height: 60px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.citi-area {
+  padding-top: 50px;
+}
+
+.city-title p {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+.city-lists {
+  display: flex;
+}
+.city-lists a {
+  padding-left: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* hero right side styling */
+.hero-right {
+  right: 0;
+  position: relative;
+}
+
+.hero-image {
+  z-index: 10;
+  position: relative;
+}
+
+.img-fluid img {
+}
+
+.hero-color-box {
+  border: 1px solid red;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 0;
+  border-radius: 100%;
+  border: hidden;
+  box-shadow: 20 5 20px grey;
+  background: radial-gradient(
+    circle at -1% 57.5%,
+    rgb(19, 170, 82) 0%,
+    rgb(0, 102, 43) 90%
+  );
+}
+
+.tomatoes {
+  width: 150px;
+  position: absolute;
+  top: 0;
+  transition: linear 1s;
+  cursor: pointer;
+}
+
+.tomatoes:hover {
+  width: 200px;
+}
+.friedrice {
+  width: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+
+.burger {
+  width: 200px;
+  position: absolute;
+  top: 200px;
+}
+
+.sandwich {
+  width: 250px;
+  position: absolute;
+  right: 0;
+  top: 250px;
+  z-index: 12;
+  transition: linear 1s;
+  cursor: pointer;
+
+}
+.sandwich:hover {
+  width: 300px;
+}
+
+/* service styling styling */
+.services{
+  padding-top: 20px;
+}

@@ -1,0 +1,104 @@
+.board-body {
+  height: 50vh;
+}
+
+.app{
+    display: flex;
+}
+
+.app-logo {
+  display: flex;
+}
+
+.text-app {
+  padding-top: 40px;
+}
+
+.text-app p:nth-child(1) {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.text-app p:nth-child(2) {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.app-logo img {
+  width: 40%;
+  cursor: pointer;
+  padding-top: 100px;
+  
+}
+.image-app{
+    display: flex;
+    gap: 40px;
+
+}
+
+.image-app img{
+    height: 400px;
+}
+
+.image1{
+    padding-top: 50px;
+}
+
+/* link text area styling */
+
+.nav-links{
+  padding-top: 40px;
+  justify-content: space-between;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.footer-text{
+display: flex;
+justify-content: space-between;
+padding-top: 20px;
+padding: 20px;
+
+}
+
+.copy-right{
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.copy-right:hover{
+  color: red;
+}
+.social-icons img{
+  width: 50px;
+  height: auto;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.logo-foot{
+  display: flex;
+  padding-top: 5px;
+}
+
+.nav-logo-foot{
+display: flex;
+
+}
+.logo-foot p{
+  font-size: 30px;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo-foot p:nth-child(1){
+  color: green;
+}
+.logo-foot p:nth-child(2){
+  color: red;
+}

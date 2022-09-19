@@ -1,0 +1,139 @@
+* {
+  margin: o;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.logo p {
+  font-size: 40px;
+  font-weight: bold;
+  color: green;
+}
+
+
+
+
+.nav-bar{}
+.nav-bar nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+/* Search-text-area */
+.search-text {
+  padding-left: 20%;
+  padding-top: 10vh;
+}
+
+input{
+    outline: none;
+}
+
+.anim-text {
+  padding-top: 50px;
+}
+.anim-text h1 {
+  padding-top: 20px;
+}
+.anim-text p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* hero image section */
+.hero-image{
+
+    
+}
+.hero-image img{
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    z-index: -1;
+    
+}
+
+.hero-color-box{
+    height: 40%;
+    background-color: blue;
+    width: 30%;
+    position: absolute;
+    top: 12%;
+    right: 0px;
+    z-index: -2;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+form input {
+  width: 40%;
+  height: 70px;
+}
+
+.find-btn {
+  height: 70px;
+  width: 10%;
+}
+.cities-area {
+  padding-left: 20%;
+  padding-top: 20px;
+}
+.city-list a {
+  text-decoration: none;
+}
+
+.city-list {
+  display: flex;
+  gap: 10px;
+}
+
+/* carasoul */
+
+.carasousal {
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+  border: 1px solid black;
+  align-items: center;
+}
+
+/* downloade app section */
+
+.download-app-sec {
+  height: 40vh;
+  border: 1px solid blue;
+  margin-top: 30px;
+}
+
+/* sub-foot section */
+
+.links-title {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.foot-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

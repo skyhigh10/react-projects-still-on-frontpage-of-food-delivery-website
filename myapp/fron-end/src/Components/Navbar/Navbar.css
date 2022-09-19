@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    display: flex;
+    padding-top: 30px;
+}
+
+.nav-logo{
+display: flex;
+
+}
+.logo p{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo p:nth-child(1){
+    color: green;
+}
+.logo p:nth-child(2){
+    color: red;
+}
+
+.nav-links{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+    padding-left: 30px;
+        
+}
+.nav-links ul{
+   display: flex; 
+   gap: 30px;
+   padding-top: 5px;
+   list-style-type: none;
+   background-color: red;
+   border-radius: 10px ;
+   width: 200px;
+   padding-left: 20px;
+   
+
+}
+
+.nav-links li:nth-child(2){
+    
+}
+.reg{
+    color: white;
+}
+
+/* image styling */
+
+
+
+.right{
+
+}
+
+.right img{
+    width: 100%;
+    height: auto;
+    margin-left: 100px;
+}
+
+.root{
+display: flex;
+}
+.hero-text{
+    padding-top: 30px;
+}
+
+.hero-text p:nth-child(1){
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS'
+    , sans-serif;
+}
+
+.hero-text p:nth-child(2){
+    font-size: 20px;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+     Verdana, sans-serif;
+
+}
+
+.search-box{
+    height: 40px;
+    width: 70%;
+}
+
+#search-btn{
+    width: 30%;
+    height: 40px;
+    
+}
+.city-title{
+    padding-top: 30px;
+    
+}
+.c-text p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.city-names{
+text-align: start;
+
+}
+
+.city-names a{
+    padding: 2px;
+    cursor: pointer;
+}
+
+/* typewriting text styling */
+#typing-text{
+
+}
